@@ -6,34 +6,45 @@ permalink:  why_i_choose_data_science
 ---
 
 
-Data Science has become a progressive innovation, considered as a demanding profession of this 21st century, Data Science is a popular expression with not many individuals thinking about the innovation in its actual sense. While many people wish to become Data Scientists, it is essential to weigh the pros and cons of data science and give out a real picture. In this article, we will discuss these points in detail and provide you with the necessary insights about Data Science.
+Data Science is now the most progressive innovative technologies nowadays that everybody appears to discuss. It evolves as ‘the most promising in-demand career path for skilled professionals of the 21st century ’. While many individuals are heading towards to become a data scientist, it is important to shed light on the positives and negatives of data science and give a real picture.
 
 # Introduction to Data Science
-Data Science is the study of data. It is about extracting, analyzing, visualizing, managing and storing data to create insights. These insights help the companies to make powerful data-driven decisions. Data Science requires the usage of both unstructured and structured data. It is a multidisciplinary field that has its roots in statistics, math and computer science. It is one of the most highly sought after jobs due to the abundance of data science position and a lucrative pay-scale. 
+The term “data scientist” was first introduced in 2001 when companies understood the requirement of data experts who are talented in managing and analyzing a huge amount of data. and it gained its popularity in 2010. It is a versatile field that has its origin in statistics, maths and computer science. It is also one of the most reputed and highly prestigious jobs with lucrative and handsome pay-scale. So this was the small introduction to data science, now let’s find out the advantages and disadvantages of data science.
 
-Current technology not only needs the best talent but also data, lots of data. Many that are to say, that fashion for the open and the turn towards data is nothing more than the nth mask of the same corporate spirit of always looking for the next site. And what is valid for artificial intelligence and machine learning environments is valid for almost any technology.
 
-It is estimated that 2.5 trillion bytes of new information are created per day. They don't seem easy to make things compatible. How is it possible that something so abundant is so valuable? Even if it was pure supply and demand, accumulating data should be trivial. And it is, the complex thing is to process them.
-
-So, this was brief to data science, now let’s explore the pros of data science.
-
-# Pros of Data Science
 ## a. Advantages of Data Science
  
  The various benefits of Data Science are as follows:
  
-  ## 1. It’s in Demand
-Data Science is greatly in demand. Prospective job seekers have numerous opportunities. It is the fastest growing job on Linkedin and is predicted to create 11.5 million jobs by 2026. This makes Data Science a highly employable job sector.
+    ## 1. High in Demand
+Data Science is highly in demand. Glassdoor and LinkedIn are top-ranked for data scientist jobs. And is predicted to create 12 million jobs by 2028
 
  
- ## 2. Abundance of Positions
-There are very few people who have the required skill-set to become a complete Data Scientist. This makes Data Science less saturated as compared with other IT sectors. Therefore, Data Science is a vastly abundant field and has a lot of opportunities. The field of Data Science is high in demand but low in supply of Data Scientists.
- 
- ## 3. A Highly Paid Career
-Data Science is one of the most highly paid jobs. According to Glassdoor, Data Scientists make an average of $116,100per year. This makes Data Science a highly lucrative career option.
+   ## 2. A profusion of Jobs
+Only a small number of people have required skill-set to become a professional data scientist. Which makes Data Science more drenched as compared to other IT sectors.
 
-## 4. Data Science is Versatile
-There are numerous applications of Data Science. It is widely used in health-care, banking, consultancy services, and e-commerce industries. Data Science is a very versatile field. Therefore, you will have the opportunity to work in various fields.
+ 
+   ## 3. Versatile
+Data Science touches every sector and every industry like healthcare, banking, e-commerce, stock market, Security, Aviation, Hotels etc. Because nowadays every industry needs a data scientist to handle and analyze their data for the profit and growth of the company.
+
+  ## 4. Highly Prestigious
+Data Scientists help companies to make smarter business decisions. Data Scientist use their talent to generate better results to their clients, therefore companies rely on data scientists.
+
+
+  ## 5. Data Science can Save Lives
+Healthcare sectors have been highly improved. With the introduction of machine learning, it is become very easy to detect early-staged tumor
+
+
+
+## b. Disadvantages of Data Science
+
+   ## 1. Foggy Side of Data Science
+It does not have an exact definition, so it is very hard to write down the exact meaning of Data Science. The role of a data scientist can vary from company to company depending on the sector company is specializing in.
+
+  ## 2. Impossible to hold grip on the Data Science concept
+	It is next to impossible to master the field or concept of data Science, because it is the mixture of many fields which includes Statistics, mathematics, Computer Science, machine learning etc
+
+
 
 
  
