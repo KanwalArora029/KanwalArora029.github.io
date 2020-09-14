@@ -50,8 +50,6 @@ database
 df_movie.head()
 ```
 
-![](https://github.com/KanwalArora029/Sentiment_Analysis_Capstone_Project/blob/master/images/img2.png)
-
 
 
 
