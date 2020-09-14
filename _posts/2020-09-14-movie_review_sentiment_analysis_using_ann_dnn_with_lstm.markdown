@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Movie Review Sentiment Analysis Using (ANN, DNN with LSTM)"
-date:       2020-09-14 19:41:09 +0000
+date:       2020-09-14 15:41:10 -0400
 permalink:  movie_review_sentiment_analysis_using_ann_dnn_with_lstm
 ---
 
@@ -43,8 +43,10 @@ from tensorflow.keras.optimizers import Adam```
 ## Importing Database from files
 df_movie = pd.read_csv('Data/IMDB Dataset.csv');
 
+```
+```
 # Displaying some records from 
-```database
+database
 df_movie.head()
 ```
 
