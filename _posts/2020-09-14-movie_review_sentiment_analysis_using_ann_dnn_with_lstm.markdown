@@ -41,16 +41,14 @@ from tensorflow.keras.optimizers import Adam```
 
 
 ```
-## Importing Database from files
-df_movie = pd.read_csv('Data/IMDB Dataset.csv');
-```
 
 
-```
 # Displaying some records from 
 database
 df_movie.head()
 ```
+
+
 
 
 
