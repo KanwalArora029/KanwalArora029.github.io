@@ -109,8 +109,56 @@ le = LabelEncoder()
 y = final_train_df['sentiment'].values
 ```
 
+```
+# processing sentiment values
+y = le.fit_transform(y)
+```
+
+```
+
+final_train_df['review']
+
+```
 
 
+### Importing Pre Processing Liabraries
+
+```
+import re
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+```
+
+```
+stop = stopwords.words('english')
+ps = PorterStemmer()
+```
+
+```
+def clean_text(sample):
+    sample = sample.lower()
+    sample = sample.replace("<br /><br />", " ")
+    sample = re.sub("[^a-zA-Z ]+", " ", sample)
+    
+    sample = sample.split()
+    sample = [ps.stem(s) for s in sample if s not in stop]
+    
+    sample = " ".join(sample)
+    
+    return sample
+```
+
+```
+
+final_train_df['cleaned_review'] = final_train_df['review'].apply(clean_text)
+
+```
+
+```
+final_train_df.head()
+
+```
 
 
 
