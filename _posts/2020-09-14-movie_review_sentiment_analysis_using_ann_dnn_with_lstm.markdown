@@ -46,6 +46,10 @@ database
 df_movie.head()
 ```
 
+```
+# Shape of database. Showing rows and columns
+df_movie.shape
+```
 
 
 
