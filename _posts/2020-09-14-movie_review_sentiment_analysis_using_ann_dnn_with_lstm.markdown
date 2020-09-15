@@ -51,10 +51,61 @@ df_movie.head()
 df_movie.shape
 ```
 
+```
+# Description of databse
+df_movie.describe()
+```
+
+```
+# How many values of negetive and positive
+df_movie['sentiment'].value_counts()
+```
+
+```
+# Dividing the data into train and test data frame
+test_df = df_movie.drop('sentiment', axis=1)
+train_df = df_movie
+```
+
+```
+# Spliting test database for 
+final_test_df = test_df[40000:]
+```
+
+```
+# Splitting Train data for training and validation
+final_train_df = train_df[:40000]
+```
 
 
+```
+# Training Data Shape
+final_train_df.shape
+```
+
+```
+# Testing Data Shape
+final_test_df.shape
+```
+
+```
+# converting dataframe to csv dataset
+final_test_df.to_csv('Data/testData.csv', index=False )
+```
+
+```
+# Getting train data values of negetive and positive
+final_train_df['sentiment'].value_counts()
+```
 
 
+```
+# Importing and initalising LabelEncoder
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+```
+
+`y = final_train_df['sentiment'].values`
 
 
 
