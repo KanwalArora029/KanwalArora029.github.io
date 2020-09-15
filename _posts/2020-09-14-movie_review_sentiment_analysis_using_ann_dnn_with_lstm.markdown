@@ -37,12 +37,10 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 # to pad sequence 
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.layers import Dense,Dropout,Embedding,LSTM,Conv1D,GlobalMaxPooling1D,Flatten,MaxPooling1D,GRU,SpatialDropout1D,Bidirectional
-from tensorflow.keras.optimizers import Adam```
-
-
+from tensorflow.keras.optimizers import Adam
 ```
 
-
+```
 # Displaying some records from 
 database
 df_movie.head()
