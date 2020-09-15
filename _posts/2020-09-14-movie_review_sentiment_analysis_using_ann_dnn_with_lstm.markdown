@@ -105,7 +105,10 @@ from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 ```
 
-`y = final_train_df['sentiment'].values`
+```
+y = final_train_df['sentiment'].values
+```
+
 
 
 
