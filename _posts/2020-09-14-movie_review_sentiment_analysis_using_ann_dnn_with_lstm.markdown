@@ -39,11 +39,13 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.layers import Dense,Dropout,Embedding,LSTM,Conv1D,GlobalMaxPooling1D,Flatten,MaxPooling1D,GRU,SpatialDropout1D,Bidirectional
 from tensorflow.keras.optimizers import Adam```
 
+
 ```
 ## Importing Database from files
 df_movie = pd.read_csv('Data/IMDB Dataset.csv');
-
 ```
+
+
 ```
 # Displaying some records from 
 database
