@@ -236,6 +236,23 @@ Trainable params: 800,305
 Non-trainable params: 0
 ```
 
+```
+model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics = ['accuracy'])
+```
+
+```
+X_val = X[:5000]
+X_train = X[5000:]
+
+y_val = y[:5000]
+y_train = y[5000:]
+```
+
+```
+X_train.shape, y_train.shape
+```
+((35000, 50000), (35000,))
+
 
 
 
