@@ -183,6 +183,57 @@ X = cvec.fit_transform(corpus)
 print(X[0])
 ```
 
+```
+#Initialising TFIDF transformer
+tfidf = TfidfTransformer()
+```
+
+```
+X = tfidf.fit_transform(X)
+print(X[0])
+```
+(40000, 50000)
+
+```
+y.shape
+```
+(40000,)
+
+## Artificial Nueral Network
+
+
+i```
+mport tensorflow as tf
+from tensorflow.keras import models
+from tensorflow.keras.layers import Dense
+```
+
+```
+model = models.Sequential()
+model.add( Dense(16, activation = "relu", input_shape = (X.shape[1],)))
+model.add( Dense(16, activation = "relu"))
+model.add( Dense(1, activation='sigmoid'))
+```
+
+```
+model.summary()
+```
+
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 16)                800016    
+_________________________________________________________________
+dense_1 (Dense)              (None, 16)                272       
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 17        
+=================================================================
+Total params: 800,305
+Trainable params: 800,305
+Non-trainable params: 0
+
+
 
 
 
