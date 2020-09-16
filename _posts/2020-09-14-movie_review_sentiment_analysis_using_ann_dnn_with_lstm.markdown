@@ -166,6 +166,32 @@ final_train_df.head()
 
 ```
 
+```
+
+corpus = final_train_df['cleaned_review'].values
+```
+
+```
+
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+```
+
+```
+cvec = CountVectorizer(max_df = 0.5, max_features=50000)
+```
+
+```
+
+X = cvec.fit_transform(corpus)
+```
+
+```
+
+print(X[0])
+```
+
+
+
 
 
 
