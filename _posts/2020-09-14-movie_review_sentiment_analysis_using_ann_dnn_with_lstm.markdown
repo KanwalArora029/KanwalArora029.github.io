@@ -47,7 +47,7 @@ from tensorflow.keras.optimizers import Adam
 ```
 
 ```
-   review	                                                                  sentiment
+   review	                                             sentiment
 0	One of the other reviewers has mentioned that ...	positive
 1	A wonderful little production. <br /><br />The...	positive
 2	I thought this was a wonderful way to spend ti...	positive
