@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Movie Review Sentiment Analysis Using (ANN, DNN with LSTM)"
+title:      "Movie Review Sentiment Analysis Using (ANN)"
 date:       2020-09-14 15:41:10 -0400
 permalink:  movie_review_sentiment_analysis_using_ann_dnn_with_lstm
 ---
