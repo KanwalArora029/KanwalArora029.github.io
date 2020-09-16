@@ -5,6 +5,12 @@ date:       2020-09-14 15:41:10 -0400
 permalink:  movie_review_sentiment_analysis_using_ann_dnn_with_lstm
 ---
 
+In today's age where we think twice to buy or consume any product or any service. We check the testimonies or reviews of that particular product service. In other words we check reviews given by previous customer wheater the product is worth spending money or not. From the reviews of that product or service we can get the sentiments of previous buyers. 
+
+Here **Sentiment Analysis** comes to action. Sentiment Analysis can be of different product or of whole website.
+in this blog I am trying to analyse the sentiment of a movies listed in IMDB to check how much people like it.
+
+**Here is the code**
 ```
 # to parse HTML contents
 from bs4 import BeautifulSoup
