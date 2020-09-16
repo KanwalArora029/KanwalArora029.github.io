@@ -47,6 +47,16 @@ from tensorflow.keras.optimizers import Adam
 ```
 
 ```
+review	sentiment
+0	One of the other reviewers has mentioned that ...	positive
+1	A wonderful little production. <br /><br />The...	positive
+2	I thought this was a wonderful way to spend ti...	positive
+3	Basically there's a family where a little boy ...	negative
+4	Petter Mattei's "Love in the Time of Money" is...	positive
+```
+
+
+```
 # Displaying some records from 
 database
 df_movie.head()
