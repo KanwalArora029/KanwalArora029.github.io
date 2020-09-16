@@ -202,7 +202,7 @@ y.shape
 ## Artificial Nueral Network
 
 
-i```
+```
 mport tensorflow as tf
 from tensorflow.keras import models
 from tensorflow.keras.layers import Dense
@@ -218,20 +218,6 @@ model.add( Dense(1, activation='sigmoid'))
 ```
 model.summary()
 ```
-
-Model: "sequential"
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-dense (Dense)                (None, 16)                800016    
-_________________________________________________________________
-dense_1 (Dense)              (None, 16)                272       
-_________________________________________________________________
-dense_2 (Dense)              (None, 1)                 17        
-=================================================================
-Total params: 800,305
-Trainable params: 800,305
-Non-trainable params: 0
 
 
 
