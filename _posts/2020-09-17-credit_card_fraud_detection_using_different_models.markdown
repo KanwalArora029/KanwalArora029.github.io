@@ -288,3 +288,22 @@ print(confusion_matrix(y_test, y_pred_logistic))
 [[56853    11]
  [   46    52]]
 
+```
+print(accuracy_score(y_test, y_pred_logistic))
+```
+0.9989993328885924
+
+```
+print(classification_report(y_test, y_pred_logistic))
+```
+```
+precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.83      0.53      0.65        98
+
+    accuracy                           1.00     56962
+   macro avg       0.91      0.77      0.82     56962
+weighted avg       1.00      1.00      1.00     56962
+```
+
