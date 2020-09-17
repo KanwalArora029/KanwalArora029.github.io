@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Google Stock Price Prediction"
-date:       2020-09-17 21:01:21 +0000
+date:       2020-09-17 17:01:22 -0400
 permalink:  google_stock_price_prediction
 ---
 
