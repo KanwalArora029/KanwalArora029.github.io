@@ -46,6 +46,13 @@ from tensorflow.keras.layers import Dense,Dropout,Embedding,LSTM,Conv1D,GlobalMa
 from tensorflow.keras.optimizers import Adam
 ```
 
+
+```
+# Displaying some records from 
+database
+df_movie.head()
+```
+
 ```
    review	                                             sentiment
 0	One of the other reviewers has mentioned that ...	positive
@@ -53,13 +60,6 @@ from tensorflow.keras.optimizers import Adam
 2	I thought this was a wonderful way to spend ti...	positive
 3	Basically there's a family where a little boy ...	negative
 4	Petter Mattei's "Love in the Time of Money" is...	positive
-```
-
-
-```
-# Displaying some records from 
-database
-df_movie.head()
 ```
 
 ```
