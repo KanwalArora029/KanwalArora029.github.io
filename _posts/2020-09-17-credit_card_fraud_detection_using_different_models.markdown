@@ -307,3 +307,168 @@ precision    recall  f1-score   support
 weighted avg       1.00      1.00      1.00     56962
 ```
 
+### KNN
+```
+#K Nearest Neighbors
+#P=2 - Euclidean distance formula
+#N_neigbors = 2 gets the highest precision for correctly classifying non - functional which I think is most important to prevent
+#sickness
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+kn_clf = KNeighborsClassifier(n_neighbors=2, p=2)
+kn_clf.fit(X_train, y_train)
+```
+
+```
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=2, p=2,
+                     weights='uniform')
+```
+
+```
+test_preds = kn_clf.predict(X_test)
+test_preds_decision = kn_clf.predict_proba(X_test)
+```
+
+```
+print(classification_report(y_test, test_preds))
+```
+
+```
+precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       1.00      0.08      0.15        98
+
+    accuracy                           1.00     56962
+   macro avg       1.00      0.54      0.58     56962
+weighted avg       1.00      1.00      1.00     56962
+```
+
+```
+print(confusion_matrix(y_test, test_preds))
+```
+
+```
+[[56864     0]
+ [   90     8]]
+```
+
+```
+accuracy_score(y_test, test_preds)
+```
+0.9984199992977775
+
+### Decision Tree Classifier
+```
+from sklearn.tree import DecisionTreeClassifier
+dtc = DecisionTreeClassifier()
+```
+
+```
+#Gini - measurement of inequility among values for each variable - the higher the gini score, the data is more dispearsed
+#Entropy - measurement of uncertainty 
+#RandomizedSearchCV- combinatorial grid search - with combinations order does not matter
+#Parameters are not independent of eachother
+#Combines cross validation with grid search of best parameters
+#GridSearchCV - search over all specified parameter values
+
+from sklearn.model_selection import GridSearchCV, cross_val_score, RandomizedSearchCV
+param_grid = {'criterion': ['gini', 'entropy'], 'max_depth': [3,5,7,20]}
+```
+
+```
+gs_inst = GridSearchCV(dtc, param_grid=param_grid,cv=5)
+gs_inst.fit(X_train,y_train)
+```
+
+```
+GridSearchCV(cv=5, error_score='raise-deprecating',
+             estimator=DecisionTreeClassifier(class_weight=None,
+                                              criterion='gini', max_depth=None,
+                                              max_features=None,
+                                              max_leaf_nodes=None,
+                                              min_impurity_decrease=0.0,
+                                              min_impurity_split=None,
+                                              min_samples_leaf=1,
+                                              min_samples_split=2,
+                                              min_weight_fraction_leaf=0.0,
+                                              presort=False, random_state=None,
+                                              splitter='best'),
+             iid='warn', n_jobs=None,
+             param_grid={'criterion': ['gini', 'entropy'],
+                         'max_depth': [3, 5, 7, 20]},
+             pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
+             scoring=None, verbose=0)
+```
+
+```
+from sklearn.metrics import accuracy_score
+y_pred_gs = gs_inst.predict(X_test)
+accuracy_score(y_test, y_pred_gs)
+```
+0.9994733330992591
+
+```
+gs_inst.best_params_
+```
+{'criterion': 'entropy', 'max_depth': 7}
+
+```
+param_grid = {'criterion': ['entropy'], 'max_depth': [5]}
+gs_inst2 = GridSearchCV(dtc, param_grid=param_grid,cv=5)
+gs_inst2.fit(X_train,y_train)
+```
+
+```
+GridSearchCV(cv=5, error_score='raise-deprecating',
+             estimator=DecisionTreeClassifier(class_weight=None,
+                                              criterion='gini', max_depth=None,
+                                              max_features=None,
+                                              max_leaf_nodes=None,
+                                              min_impurity_decrease=0.0,
+                                              min_impurity_split=None,
+                                              min_samples_leaf=1,
+                                              min_samples_split=2,
+                                              min_weight_fraction_leaf=0.0,
+                                              presort=False, random_state=None,
+                                              splitter='best'),
+             iid='warn', n_jobs=None,
+             param_grid={'criterion': ['entropy'], 'max_depth': [5]},
+             pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
+             scoring=None, verbose=0)
+```
+
+```
+y_pred_gs2 = gs_inst2.predict(X_test)
+accuracy_score(y_test, y_pred_gs2)
+```
+
+```
+0.9993679997191109
+```
+
+```
+print(classification_report(y_test, y_pred_gs))
+```
+
+```
+
+     precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.90      0.79      0.84        98
+
+    accuracy                           1.00     56962
+   macro avg       0.95      0.89      0.92     56962
+weighted avg       1.00      1.00      1.00     56962
+```
+
+```
+print(confusion_matrix(y_test, y_pred_gs))
+```
+
+
+
+
+
