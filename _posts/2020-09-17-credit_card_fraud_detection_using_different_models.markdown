@@ -517,6 +517,8 @@ print(confusion_matrix(y_test, nb.predict(X_test)))
 [[56849    15]
  [   36    62]]
  
+ ```
+ 
  ### Plot ROC and compare AUC
  
  # Logistic Regression
@@ -540,7 +542,7 @@ sgd_fpr, sgd_tpr, threshold = roc_curve(y_test, sgd_pred_decision)
 auc_sgd = auc(sgd_fpr, sgd_tpr)
 
 # Naive Bayes
-```
+
 nb_fpr, nb_tpr, threshold = roc_curve(y_test, nb_y_pred)
 auc_nb = auc(nb_fpr, nb_tpr)
 
