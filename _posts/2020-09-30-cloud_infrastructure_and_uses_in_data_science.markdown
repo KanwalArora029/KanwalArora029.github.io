@@ -111,3 +111,21 @@ For businesses seeking the benefits of both private and public cloud deployment 
 #### Cons of a hybrid cloud
 
 * Communication in network level may be conflicted as it’s used in both private and public clouds.
+
+## Cloud Services
+
+There are three main service models of cloud computing – Infrastructure as a Service (IaaS), Platform as a Service (PaaS) and Software as a Service (SaaS). There are clear differences between the three and what they can offer a business in terms of storage and resource pooling, but they can also interact with each other to form one comprehensive model of cloud computing.
+
+#### IaaS (Infrastructure as Service)
+
+This is the most common service model of cloud computing as it offers the fundamental infrastructure of virtual servers, network, operating systems and data storage drives. It allows for the flexibility, reliability and scalability that many businesses seek with the cloud, and removes the need for hardware in the office. This makes it ideal for small and medium sized organisations looking for a cost-effective IT solution to support business growth. IaaS is a fully outsourced pay-for-use service and is available as a public, private or hybrid infrastructure.
+
+#### PaaS (Platform-as-a-Service)
+
+This is where cloud computing providers deploy the infrastructure and software framework, but businesses can develop and run their own applications. Web applications can be created quickly and easily via PaaS, and the service is flexible and robust enough to support them. PaaS solutions are scalable and ideal for business environments where multiple developers are working on a single project. It is also handy for situations where an existing data source (such as CRM tool) needs to be leveraged.
+
+#### SaaS (Software as a Service)
+
+This cloud computing solution involves the deployment of software over the internet to variousbusinesses who pay via subscription or a pay-per-use model. It is a valuable tool for CRM and for applications that need a lot of web or mobile access – such as mobile sales management software. SaaS is managed from a central location so businesses don’t have to worry about maintaining it themselves, and is ideal for short-term projects.
+
+
