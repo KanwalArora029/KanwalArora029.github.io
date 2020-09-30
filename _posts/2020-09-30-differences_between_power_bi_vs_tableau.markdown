@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Differences Between Power BI vs Tableau"
-date:       2020-09-30 13:07:36 +0000
+date:       2020-09-30 09:07:37 -0400
 permalink:  differences_between_power_bi_vs_tableau
 ---
 
