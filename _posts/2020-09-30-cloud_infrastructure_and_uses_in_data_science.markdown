@@ -129,3 +129,7 @@ This is where cloud computing providers deploy the infrastructure and software f
 This cloud computing solution involves the deployment of software over the internet to variousbusinesses who pay via subscription or a pay-per-use model. It is a valuable tool for CRM and for applications that need a lot of web or mobile access – such as mobile sales management software. SaaS is managed from a central location so businesses don’t have to worry about maintaining it themselves, and is ideal for short-term projects.
 
 
+### Platforms of Cloud Infrastructure
+
+![](https://859766.smushcdn.com/1876234/wp-content/uploads/2020/04/Cloud-provider.jpg?lossy=1&strip=1&webp=1)
+
