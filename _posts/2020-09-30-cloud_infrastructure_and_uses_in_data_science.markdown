@@ -133,3 +133,51 @@ This cloud computing solution involves the deployment of software over the inter
 
 ![](https://859766.smushcdn.com/1876234/wp-content/uploads/2020/04/Cloud-provider.jpg?lossy=1&strip=1&webp=1)
 
+#### 1. Amazon Web Services:
+
+![](https://859766.smushcdn.com/1876234/wp-content/uploads/2020/04/AWS.png?lossy=1&strip=1&webp=1)
+
+Amazon Web Services (AWS) is a subsidiary of Amazon (a leading company in eCommerce). Under the umbrella term of AWS, Amazon provides on-demand cloud computing platforms like storage, data analysis, etc. With a whopping 35% market share, Amazon lends its services to individuals, companies, and governments. Amazon Web Services allow their subscribers to enjoy a full-fledged virtual cluster of computers, at any time, based on their requirements. The entire service is enabled through the internet.
+
+Among all the cloud service providers Amazon is considered is the most powerful and flexible solution. AWS’s virtual cloud platform comes with most of the attributes of an actual computer including hardware (CPU(s) & GPU(s) for processing, hard-disk/SSD for storage & local/RAM for memory); an operating system to choose from and pre-loaded apps like web servers, databases, CRM, etc.
+
+
+#### 2. Google Cloud Platform:
+
+![](https://859766.smushcdn.com/1876234/wp-content/uploads/2020/04/google-cloud-platform-300x191.png?lossy=1&strip=1&webp=1)
+
+Google offers its public cloud computing solutions with the name of Google Cloud Platform, or GCP. It offers services in all major spheres including compute, networking, storage, machine learning (ML) and the internet of things (IoT). It also includes tools for cloud management, security, and development. The Google Cloud Storage is a highly dynamic storage solution that supports both SQL (Cloud SQL) and NoSQL (Cloud Datastore) database storage.
+
+The Google Compute Engine (Infrastructure as a Service, or IaaS) provides users with virtual machine instances for workload hosting. The Google App Engine (Platform as a Service, or PaaS) offers software developers access to Google’s on-demand hosting and a software development kit (SDK) to develop applications that run on app engine. All these services can be accessed using a public internet or via dedicated networks.
+
+Google Cloud Platform or GCP is the home of Kubernetes. Kubernetes was developed by Google in 2014 as open source. Google Kubernetes Engine or GKE provides users with a managed environment for the deployment, management, and scaling of containerized applications with the help of Google infrastructure.
+
+#### 3. Microsoft Azure:
+
+![](https://859766.smushcdn.com/1876234/wp-content/uploads/2020/04/Windows_Azure_logo-300x69.png?lossy=1&strip=1&webp=1)
+
+Microsoft Azure (formerly Windows Azure) is the cloud computing service from Microsoft. Enabled primarily through Microsoft-managed data centers, this service proves to be a reliable solution, especially for Microsoft evangelists. Like the above solutions, it supports the development, test, deployment, and management of applications and services. For web development, it offers support for PHP, ASP.net, and Node.js.
+
+The Windows Azure is used to deploy code on Microsoft’s servers. This code holds access to local storage resources (blobs, queues, and tables). While the SQL Azure it is not a full SQL Server instance it can be integrated with SQL Server. The security features like authentication, security, etc. are supported using Azure AppFabric that allows applications within your LAN to communicate with Azure cloud. Overall it is a complete package that supports development, management as well security of applications.
+
+
+#### 4. IBM Bluemix:
+
+![](https://859766.smushcdn.com/1876234/wp-content/uploads/2020/04/IBM_Bluemix_logo.svg_-300x297.png?lossy=1&strip=1&webp=1)
+
+IBM Bluemix is the cloud computing solution from IBM that comes with the platform (PaaS) as well as infrastructure as a service (IaaS) offerings. With Bluemix IaaS, users can deploy and access virtualized compute power, storage and networking using the internet. The IBM service offerings can be used as a public, private or hybrid model whichever suits an organization’s need.
+
+The IBM Bluemix PaaS is based on an open source cloud platform – Cloud Foundry. IBM services can be used by developers to create, manage, run and deploy scalable applications for both public cloud and on-premises environments. The programming languages that are supported by IBM Bluemix include Java, Node.js, PHP, and Python. The solution can even be extended to support other languages.
+
+
+#### 5. Alibaba:
+
+![](https://859766.smushcdn.com/1876234/wp-content/uploads/2020/04/alibaba-cloud-300x51.png?lossy=1&strip=1&webp=1)
+
+Alibaba Cloud is the cloud initiative of the Chinese eCommerce giant – Alibaba Group. The Alibaba services dominate the Chinese market and have roots all across the globe with headquarters in Hangzhou, China. It was established in 2009, just three years after the incorporation of Amazon Web Services. Being in the same business as Amazon it is often considered the toughest competitor of AWS.
+
+Alibaba Cloud began as a private cloud which was meant to support the internal infrastructural needs of the Alibaba Group but it soon scaled to a public cloud solution provider. The Alibaba Cloud computing services cover all the major cloud services like elastic computing, hosting, object storage, relational database (SQL), NoSQL database (using the Table Store), big data analytics (Hadoop), Machine Learning (ML) and Artificial Intelligence (AI).
+
+If you are looking for a suitable multi cloud solutions for your enterprise needs then feel free to contact us. With a deep expertise in cloud management and development, big data and machine learning, we can suggest an appropriate solution for your needs and help you securely move to cloud.
+
+
